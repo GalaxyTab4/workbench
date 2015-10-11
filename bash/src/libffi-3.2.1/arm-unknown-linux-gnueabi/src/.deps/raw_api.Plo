@@ -1,0 +1,71 @@
+src/raw_api.lo: ../src/raw_api.c \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ include/ffi.h include/ffitarget.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/stddef.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/limits.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/syslimits.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/limits.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/features.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/limits.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h \
+ ../include/ffi_common.h fficonfig.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/alloca.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/string.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/xlocale.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/string.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/string2.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdlib.h
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdc-predef.h:
+
+include/ffi.h:
+
+include/ffitarget.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/stddef.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/limits.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/syslimits.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/limits.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/features.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/limits.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h:
+
+../include/ffi_common.h:
+
+fficonfig.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/alloca.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/string.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/xlocale.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/string.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/string2.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdlib.h:

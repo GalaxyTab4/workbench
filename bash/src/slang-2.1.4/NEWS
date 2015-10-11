@@ -1,0 +1,150 @@
+S-Lang 2 NEWS is now contained in the appendices of doc/text/slang.txt
+(interpreter news) and doc/txt/cslang.txt (C API news).
+
+NEWS for version 2.1
+
+Building the library
+====================
+
+   `make install' installs the shared version of the library.
+   Previously `make install' installed just the static version and a
+   separate step (`make install-elf') was required to install the
+   shared version.  Now, `make install-static' is necessary to install
+   the static one.
+
+Interpreter News
+=================
+
+Syntax enhancements:
+--------------------
+
+   1.  Short circuiting boolean operators:
+   
+           if ((x == y) || (y == 3) && (x != 4)) ...
+
+       (orelse and andelse are deprecated)
+       
+   2.  Structure definitions allow embdedded assignment expressions:
+   
+           s = struct {x = 3, name="foo", a = [1:10]};
+
+   3.  Qualifiers (aka "keywords") added to the language:
+   
+           save_file ("foo.c"; overwrite=1);
+	   plot_points ([1:10], sin([1:10]); color="red", style="solid");
+
+   3.  Expressions such as (a < b < c) now interpreted to mean
+       (a<b)and(b<c).
+
+   4.  New keywords: ifnot, then
+   
+       ifnot may be used instead of !if, which has been deprecated.
+       For "then" see the next item.
+
+   5.  Looping constructs support a "then" clause that will get
+       executed if the loop runs to completion, e.g.,
+       
+           loop (20)
+	    {
+	       if (this ())
+	         break;  % The then clause will NOT get executed
+	    }
+	   then do_that ();
+	   
+   6.  A floating point array of exactly N elements may be created
+       using the form [a:b:#N], where the elements are uniformly
+       spaced and run from a to b, inclusive.
+       
+   7.  References to array elements and structure fields are
+       supported, e.g., &A[3], &s.foo.
+       
+   8.  An exception may be rethrown by calling "throw" without any
+       arguments:
+       
+           try { something (); }
+	   catch AnyError: { do_this (); throw; }
+
+New Intrinsic Functions:
+------------------------
+
+   wherenot(x) :
+              Equivalent to where (not(x))
+
+   _$(str) :
+              Evaluates strings with embedded "dollar" variables, e.g.,
+              _$("$TERM");
+
+   __push_list/__pop_list :
+              Push list items onto the stack
+
+   prod(x) :
+              Computes the product of an array a[0]*a[1]*...
+
+   minabs(x), maxabs(x):
+              Equivalent to min(abs(x)) and max(abs(x))
+	      
+   getpgrp,setgid, getpgid:
+              Get and set the process group (Unix)
+   setsid  :
+              Create a new session
+
+
+API News
+========
+
+  Although not new I feel that this point should be stressed now
+  because it was not emphasized earlier: The SLarray_* functions that
+  deal with indices or sizes use `SLindex_Type' instead of `int'.
+  Currently, `SLindex_Type' is typedefed to be an `int', but this will
+  change in a future version.  So for future compatibility, use
+  `SLindex_Type' instead of `int' in functions that deal with slang
+  arrays.  Similarly, instead of using SLang_pop_int for obtaining an
+  array index, use SLang_pop_array_index.  See the array-specific
+  examples in the documentation for more information.
+
+  There have been significant enhancements to the slang readline
+  interface.  The interface has been opened up to the interpreter
+  allowing for such features as completion and a persistent history
+  mechanism.  Applications wishing to take advantage of these features
+  should use the new function `SLrline_open2' instead of
+  `SLrline_open'.  For an example, see how this function is used in
+  slsh/src/readline.c.
+
+  SLclass_patch_intrin_fun_table was added to facilitiate the patching
+  of intrinsic tables during runtime.  If you have created dynamically
+  loaded modules, then you may have a good idea what this function is
+  for.
+
+  The SLang_Traceback variable is now interpreted as a bitmapped
+  integer providing greater flexibility and control over traceback
+  messages.
+  
+  SLerr_throw was added to permit applications to mimic the semantics
+  of the `throw' statement.
+  
+  SLang_verror_va was added to support calling the error routines with
+  a va_list argument.
+
+
+slsh enhancements
+=================
+
+  When configured to use slang's readline routines, new features
+  include filename completion and persistent history.
+  
+  The profiler was rewritten to be much more friendly, flexible, and
+  more accurate.
+  
+  struct_filter and struct_combine defined in structfuns.sl have been
+  made more flxible.  See their documentation for more information.
+  
+  A new function called readascii may be used for reading
+  non-binary (or so-called "ascii") data files.
+
+New modules
+===========
+
+  The following modules have been added:
+   
+      iconv:  Performs character-set conversion using the iconv library.
+      onig:   A regular expression module using oniguruma RE library.

@@ -1,0 +1,28 @@
+<!-- ##### SECTION Title ##### -->
+GZlibDecompressor
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### FUNCTION g_zlib_decompressor_new ##### -->
+<para>
+
+</para>
+
+@format: 
+@Returns: 
+
+

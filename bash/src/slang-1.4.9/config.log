@@ -1,0 +1,292 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:606: checking host system type
+configure:648: checking for gcc
+configure:761: checking whether the C compiler (gcc  ) works
+configure:777: gcc -o conftest    conftest.c  1>&5
+configure:774:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:803: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:808: checking whether we are using GNU C
+configure:817: gcc -E conftest.c
+configure:836: checking whether gcc accepts -g
+configure:868: checking how to run the C preprocessor
+configure:889: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:949: checking whether gcc needs -traditional
+configure:995: checking for POSIXized ISC
+configure:1016: checking for AIX
+configure:1061: checking C compiler that understands ANSI prototypes
+configure:1071: gcc -c -g -O2  conftest.c 1>&5
+configure:1087: checking whether make sets ${MAKE}
+configure:1116: checking for ranlib
+configure:1155: checking for a BSD compatible install
+configure:1226: checking for stdlib.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for unistd.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for memory.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for termios.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for malloc.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for locale.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for fcntl.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for sys/fcntl.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for sys/types.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for sys/wait.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for sys/utsname.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1226: checking for sys/times.h
+configure:1236: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1264: checking for ANSI C header files
+configure:1277: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1344: gcc -o conftest -g -O2   conftest.c  1>&5
+configure: In function 'main':
+configure:1339:67: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                   ^
+configure:1339:67: warning: incompatible implicit declaration of built-in function 'exit'
+configure:1339:67: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:1340:1: warning: incompatible implicit declaration of built-in function 'exit'
+ exit (0); }
+ ^
+configure:1340:1: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:1368: checking for mode_t
+configure:1401: checking for pid_t
+configure:1434: checking for uid_t in sys/types.h
+configure:1473: checking for dirent.h that defines DIR
+configure:1486: gcc -c -g -O2  conftest.c 1>&5
+configure:1511: checking for opendir in -ldir
+configure:1530: gcc -o conftest -g -O2   conftest.c -ldir   1>&5
+/usr/bin/ld: cannot find -ldir
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 1519 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char opendir();
+
+int main() {
+opendir()
+; return 0; }
+configure:1620: checking for memset
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1632:6: warning: conflicting types for built-in function 'memset'
+ char $ac_func();
+      ^
+configure:1620: checking for memcpy
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1632:6: warning: conflicting types for built-in function 'memcpy'
+ char $ac_func();
+      ^
+configure:1620: checking for putenv
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for getcwd
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for setlocale
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for tcgetattr
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for tcsetattr
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for cfgetospeed
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for sigaction
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for sigemptyset
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for sigprocmask
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for sigaddset
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for vfscanf
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1632:6: warning: conflicting types for built-in function 'vfscanf'
+ char $ac_func();
+      ^
+configure:1620: checking for lstat
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for readlink
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for kill
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for snprintf
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1632:6: warning: conflicting types for built-in function 'snprintf'
+ char $ac_func();
+      ^
+configure:1620: checking for vsnprintf
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1632:6: warning: conflicting types for built-in function 'vsnprintf'
+ char $ac_func();
+      ^
+configure:1620: checking for getppid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for getegid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for geteuid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for getuid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for getgid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for setgid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for setpgid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for setuid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for chown
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for popen
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for mkfifo
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for atexit
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for on_exit
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for umask
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for uname
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for times
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for gmtime
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for strtod
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:1620: checking for issetugid
+configure:1648: gcc -o conftest -g -O2   conftest.c  1>&5
+/tmp/ccjAbNE0.o: In function `main':
+/home/sub77/workbench/bash/src/slang-1.4.9/configure:1642: undefined reference to `issetugid'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 1625 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char issetugid(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char issetugid();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_issetugid) || defined (__stub___issetugid)
+choke me
+#else
+issetugid();
+#endif
+
+; return 0; }
+configure:1674: checking for acosh in -lm
+configure:1693: gcc -o conftest -g -O2   conftest.c -lm   1>&5
+configure:1686:6: warning: conflicting types for built-in function 'acosh'
+ char acosh();
+      ^
+configure:1717: checking for asinh in -lm
+configure:1736: gcc -o conftest -g -O2   conftest.c -lm   1>&5
+configure:1729:6: warning: conflicting types for built-in function 'asinh'
+ char asinh();
+      ^
+configure:1760: checking for atanh in -lm
+configure:1779: gcc -o conftest -g -O2   conftest.c -lm   1>&5
+configure:1772:6: warning: conflicting types for built-in function 'atanh'
+ char atanh();
+      ^
+configure:1807: checking for dlfcn.h
+configure:1817: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1839: checking for dlopen in -ldl
+configure:1858: gcc -o conftest -g -O2   conftest.c -ldl   1>&5
+configure:2123: checking size of short
+configure:2143: gcc -o conftest -g -O2    conftest.c  1>&5
+configure:2134:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main()
+ ^
+configure: In function 'main':
+configure:2137:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   if (!f) exit(1);
+           ^
+configure:2137:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:2137:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2139:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(0);
+   ^
+configure:2139:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2163: checking size of int
+configure:2183: gcc -o conftest -g -O2    conftest.c  1>&5
+configure:2174:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main()
+ ^
+configure: In function 'main':
+configure:2177:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   if (!f) exit(1);
+           ^
+configure:2177:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:2177:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2179:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(0);
+   ^
+configure:2179:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2203: checking size of long
+configure:2223: gcc -o conftest -g -O2    conftest.c  1>&5
+configure:2214:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main()
+ ^
+configure: In function 'main':
+configure:2217:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   if (!f) exit(1);
+           ^
+configure:2217:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:2217:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2219:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(0);
+   ^
+configure:2219:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2243: checking size of float
+configure:2263: gcc -o conftest -g -O2    conftest.c  1>&5
+configure:2254:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main()
+ ^
+configure: In function 'main':
+configure:2257:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   if (!f) exit(1);
+           ^
+configure:2257:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:2257:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2259:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(0);
+   ^
+configure:2259:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2283: checking size of double
+configure:2303: gcc -o conftest -g -O2    conftest.c  1>&5
+configure:2294:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main()
+ ^
+configure: In function 'main':
+configure:2297:11: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   if (!f) exit(1);
+           ^
+configure:2297:11: warning: incompatible implicit declaration of built-in function 'exit'
+configure:2297:11: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2299:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(0);
+   ^
+configure:2299:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+configure:2325: checking for Terminfo
+configure:2442: checking SLANG_VERSION

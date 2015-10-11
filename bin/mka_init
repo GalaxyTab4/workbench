@@ -1,0 +1,68 @@
+#export BASH_SRC=~/workbench/bash/src/$1
+# export BASH_BUILD=~/workbench/bash/build
+# mkdir -pv ~/workbench/bash
+# mkdir $BASH_SRC && mkdir $BASH_BUILD
+# cd $BASH_SRC
+
+export PATH=$PATH:/home/sub77/TOOLCHAINZ/ndk-android-16/bin/
+
+CC=arm-linux-androideabi-gcc \
+AR=arm-linux-androideabi-ar \
+RANLIB=arm-linux-androideabi-ranlib \
+STRIP=arm-linux-androideabi-strip 
+
+#CC0=/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-gcc
+
+#CC2=/home/sub77/0android/kernel/arm-cortex-4.9/bin/arm-cortex_a9-linux-gnueabihf-gcc
+
+#wget http://ftp.gnu.org/gnu/mc/mc-4.6.1.tar.gz
+#tar -xvvf mc-4.6.1.tar.gz
+#cd ~/sources/mc-4.6.1
+#./configure –prefix=~/workbench/bash
+
+#./configure --host=arm-linux-gnueabi \
+#LIBS="-lrt -lglib-2.0" \
+#CC=/home/sub77/TOOLCHAINZ/ndk-android-16/bin/arm-linux-androideabi-gcc
+
+
+#./configure --host=arm-linux-gnueabi \
+#--enable-static-link --without-bash-malloc CC=$CC1
+
+
+
+
+
+
+#export ACFG=./configure \
+#--host=arm-linux-gnueabi \
+#CC0=/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-gcc \
+#STRIP=/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-strip \
+RANLIB=/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-ranlib \
+#AR=/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-ar \
+#LD=/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-ld
+
+#
+#CC=$NDK/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc-4.8
+
+CC1=/home/sub77/TOOLCHAINZ/ndk-android-16/bin/arm-linux-androideabi-gcc
+#export SYSROOT=$NDK/platforms/android-16/arch-arm/
+#export PRE=--prefix=/home/sub77/workbench/pre
+#export HOS=--host=arm-linux-gnueabi
+
+
+#--libdir=
+
+#--with-glib12            Force using glib 1.2.x [no]
+ # --with-glib-static       Link glib statically [no]
+ # --with-glib-prefix=PFX   Prefix where GLIB is installed (optional)
+
+
+ # CC          C compiler command
+ # CFLAGS      C compiler flags
+ # LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+  CPPFLAGS    C/C++ preprocessor flags, e.g. -I<include dir> if you have
+              headers in a nonstandard directory <include dir>
+  CPP         C preprocessor
+  GLIB_CONFIG Path to glib-config (version 1.2.x only)
+

@@ -1,0 +1,2 @@
+set CC_FOR_TARGET "/home/sub77/Toolchain/bin/arm-architoolchain-linux-gnueabihf-gcc"
+set CXX_FOR_TARGET "g++"

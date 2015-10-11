@@ -1,0 +1,7 @@
+mcfs.o: mcfs.c \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ ../config.h
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdc-predef.h:
+
+../config.h:

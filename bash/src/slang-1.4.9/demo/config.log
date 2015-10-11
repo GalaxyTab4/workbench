@@ -1,0 +1,23 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:569: checking for gcc
+configure:682: checking whether the C compiler (gcc  ) works
+configure:698: gcc -o conftest    conftest.c  1>&5
+configure:695:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^
+configure:724: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:729: checking whether we are using GNU C
+configure:757: checking whether gcc accepts -g
+configure:789: checking how to run the C preprocessor
+configure:870: checking whether gcc needs -traditional
+configure:916: checking for POSIXized ISC
+configure:937: checking for AIX
+configure:982: checking C compiler that understands ANSI prototypes
+configure:992: gcc -c -g -O2  conftest.c 1>&5
+configure:1008: checking whether make sets ${MAKE}
+configure:1042: checking host system type
+configure:1066: checking for dlfcn.h
+configure:1098: checking for dlopen in -ldl
+configure:1225: checking for Terminfo

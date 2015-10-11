@@ -1,0 +1,211 @@
+libglib_2_0_la-gbitlock.lo: gbitlock.c \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ ../config.h gbitlock.h ../glib/gtypes.h glibconfig.h ../glib/gmacros.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/stddef.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/limits.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/syslimits.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/limits.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/features.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/limits.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/xopen_lim.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/stdio_lim.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/float.h \
+ ../glib/gversionmacros.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/time.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/time.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/timex.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/xlocale.h \
+ ../glib/gmessages.h \
+ /home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/stdarg.h \
+ ../glib/gatomic.h ../glib/gslist.h ../glib/gmem.h ../glib/gutils.h \
+ ../glib/gnode.h ../glib/gthread.h ../glib/gerror.h ../glib/gquark.h \
+ ../glib/gslice.h gthreadprivate.h deprecated/gthread.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/endian.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/endian.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/byteswap.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/byteswap-16.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/select.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/select.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/sigset.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/sysmacros.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/pthread.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sched.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/sched.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/setjmp.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/futex.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm-generic/int-ll64.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/bitsperlong.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/posix_types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/stddef.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/posix_types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm-generic/posix_types.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/syscall.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/unistd.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/syscall.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/unistd.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix_opt.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/environments.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/confname.h \
+ /home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/getopt.h
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/stdc-predef.h:
+
+../config.h:
+
+gbitlock.h:
+
+../glib/gtypes.h:
+
+glibconfig.h:
+
+../glib/gmacros.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/stddef.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/limits.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include-fixed/syslimits.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/limits.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/features.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/cdefs.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/wordsize.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/gnu/stubs-hard.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix1_lim.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/local_lim.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/limits.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix2_lim.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/xopen_lim.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/stdio_lim.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/float.h:
+
+../glib/gversionmacros.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/time.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/time.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/typesizes.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/timex.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/xlocale.h:
+
+../glib/gmessages.h:
+
+/home/sub77/Toolchain/lib/gcc/arm-architoolchain-linux-gnueabihf/5.2.0/include/stdarg.h:
+
+../glib/gatomic.h:
+
+../glib/gslist.h:
+
+../glib/gmem.h:
+
+../glib/gutils.h:
+
+../glib/gnode.h:
+
+../glib/gthread.h:
+
+../glib/gerror.h:
+
+../glib/gquark.h:
+
+../glib/gslice.h:
+
+gthreadprivate.h:
+
+deprecated/gthread.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/endian.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/endian.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/byteswap.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/byteswap-16.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/select.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/select.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/sigset.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/sysmacros.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/pthreadtypes.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/pthread.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sched.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/sched.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/setjmp.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/futex.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/posix_types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/linux/stddef.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/posix_types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/sys/syscall.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/asm/unistd.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/syscall.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/unistd.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/posix_opt.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/environments.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/bits/confname.h:
+
+/home/sub77/Toolchain/arm-architoolchain-linux-gnueabihf/sysroot/usr/include/getopt.h:
